@@ -136,6 +136,7 @@ def a_star_solver(initial_puzzle, the_goal):
                 print("Visited Nodes: " + str(visited))
             else:
                 current_node.get_children()
+                print(current_node)
                 for c in range(current_node.n_children):
                     heappush(the_heap, current_node.children[c])
 

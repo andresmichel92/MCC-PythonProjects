@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175bbb85-78e1-4ce7-9e47-7bb87f25b0ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SW_projects/SW_unitTests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SW_projects/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SW_projects/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SI_8puzzle-Astar.py" beforeDir="false" afterPath="$PROJECT_DIR$/SI_8puzzle-Astar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,45 +24,77 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="2" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4436" />
-          <entry key="txt" value="95" />
+          <entry key="py" value="4898" />
+          <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="4436" />
+          <entry key="PLAIN_TEXT" value="143" />
+          <entry key="Python" value="4898" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            <state relative-caret-position="637">
+              <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
               <folding>
                 <element signature="e#17#42#0" expanded="true" />
-                <marker date="1549473267202" expanded="true" signature="428:636" ph="..." />
-                <marker date="1549473267202" expanded="true" signature="660:1580" ph="..." />
-                <marker date="1549473267202" expanded="true" signature="4896:5016" ph="..." />
+                <marker date="1549482446875" expanded="true" signature="428:636" ph="..." />
+                <marker date="1549482446875" expanded="true" signature="660:1580" ph="..." />
+                <marker date="1549482446875" expanded="true" signature="4932:5052" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SW_projects/SW_unitTests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1549483478674" expanded="true" signature="84:85" ph="..." />
+                <marker date="1549483478674" expanded="true" signature="279:284" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SW_projects/file1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SW_projects/file2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -74,6 +110,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>h_value</find>
@@ -87,6 +130,9 @@
       <list>
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/SI_8puzzle-Astar.py" />
+        <option value="$PROJECT_DIR$/SW_projects/SW_unitTests.py" />
+        <option value="$PROJECT_DIR$/SW_projects/file1.txt" />
+        <option value="$PROJECT_DIR$/SW_projects/file2.txt" />
       </list>
     </option>
   </component>
@@ -107,6 +153,11 @@
             <path>
               <item name="MCC-PythonProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="MCC-PythonProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCC-PythonProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCC-PythonProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="SW_projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests in SW_unitTests.py">
     <configuration name="SI_8puzzle-Astar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MCC-PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,8 +203,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in SW_unitTests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MCC-PythonProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW_projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/SW_projects/SW_unitTests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.SI_8puzzle-Astar" />
+      <item itemvalue="Python tests.Unittests in SW_unitTests.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in SW_unitTests.py" />
         <item itemvalue="Python.SI_8puzzle-Astar" />
       </list>
     </recent_temporary>
@@ -186,21 +256,48 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 13h 56m 22s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 13h 57m 46s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 13h 58m 18s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 13h 58m 28s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 13h 58m 44s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 14h 01m 41s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 14h 02m 06s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_SW_unitTests_py - 2019.02.06 at 14h 04m 39s.xml">
+      <configuration name="Unittests in SW_unitTests.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31506848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34668073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.71800435" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.71800435" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39804772" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -251,14 +348,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="637">
+          <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
           <folding>
             <element signature="e#17#42#0" expanded="true" />
-            <marker date="1549473267202" expanded="true" signature="428:636" ph="..." />
-            <marker date="1549473267202" expanded="true" signature="660:1580" ph="..." />
-            <marker date="1549473267202" expanded="true" signature="4896:5016" ph="..." />
+            <marker date="1549482446875" expanded="true" signature="428:636" ph="..." />
+            <marker date="1549482446875" expanded="true" signature="660:1580" ph="..." />
+            <marker date="1549482446875" expanded="true" signature="4932:5052" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW_unitTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1549483478674" expanded="true" signature="84:85" ph="..." />
+            <marker date="1549483478674" expanded="true" signature="279:284" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SW_projects/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SW_projects/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
