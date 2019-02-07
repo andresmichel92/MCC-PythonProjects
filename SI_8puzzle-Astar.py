@@ -17,7 +17,7 @@ def heaper_printer(a_heap):
         print(str(a_heap[0].puzzle.state) + " f: " + str(a_heap[0].f_value) + " | " + str(a_heap[1].puzzle.state) + " f: " + str(a_heap[1].f_value) + " | "+str(a_heap[2].puzzle.state) + " f: " + str(a_heap[2].f_value))
     elif len(a_heap) > 1:
         print(str(a_heap[0].puzzle.state) + " f: " + str(a_heap[0].f_value) + " | " + str(a_heap[1].puzzle.state) + " f: " + str(a_heap[1].f_value))
-
+    print("")
 
 def read_list(file_name):
     master_list = []
@@ -146,11 +146,11 @@ def a_star_solver(initial_puzzle, the_goal):
             current_node = heappop(the_heap)
             explored.append(current_node.puzzle.state)
             visited = visited + 1
-            print("")
             print(current_node)
             heaper_printer(the_heap)
             if current_node.puzzle.state == the_goal:
                 goal_found = True
+                print("\n--------\nSUCCESS!\n-------- \n")
                 print("Path to goal:  " + str(list(current_node.path)))
                 print("Cost to Path:  " + str(current_node.level))
                 print("Visited Nodes: " + str(visited))
