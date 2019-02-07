@@ -6,10 +6,17 @@ import time
 
 
 goal = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]
-# goal = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
+# goal = [[1, 2, 3], [4, 0, 6], [7, 5, 8]]
 
 move_options = [[["D", "R"], ["D", "L", "R"], ["D", "L"]], [["U", "D", "R"], ["U", "D", "L", "R"], ["U", "D", "L"]],
                 [["U", "R"], ["U", "L", "R"], ["U", "L"]]]
+
+
+def heaper_printer(a_heap):
+    if len(a_heap) >= 3:
+        print(str(a_heap[0].puzzle.state) + " f: " + str(a_heap[0].f_value) + " | " + str(a_heap[1].puzzle.state) + " f: " + str(a_heap[1].f_value) + " | "+str(a_heap[2].puzzle.state) + " f: " + str(a_heap[2].f_value))
+    elif len(a_heap) > 1:
+        print(str(a_heap[0].puzzle.state) + " f: " + str(a_heap[0].f_value) + " | " + str(a_heap[1].puzzle.state) + " f: " + str(a_heap[1].f_value))
 
 
 def read_list(file_name):
@@ -40,12 +47,12 @@ def move_zero(puzzle_parent, direction):
         elif direction == "D":
             moved[position[0]][position[1]] = moved[position[0]+1][position[1]]
             moved[position[0] + 1][position[1]] = 0
-        elif direction == "R":
-            moved[position[0]][position[1]] = moved[position[0]][position[1]+1]
-            moved[position[0]][position[1]+1] = 0
         elif direction == "L":
             moved[position[0]][position[1]] = moved[position[0]][position[1]-1]
             moved[position[0]][position[1]-1] = 0
+        elif direction == "R":
+            moved[position[0]][position[1]] = moved[position[0]][position[1]+1]
+            moved[position[0]][position[1]+1] = 0
         return moved
 
 
@@ -63,9 +70,8 @@ class Puzzle:
         for i in range(3):
             for j in range(3):
                 goal_pos = get_pos(goal, self.state[i][j])
-                if self.state[i][j] == 0:
-                    continue
-                h = h + abs(goal_pos[0] - i) + abs(goal_pos[1]-j)
+                if self.state[i][j] != 0:
+                    h += abs(goal_pos[0] - i) + abs(goal_pos[1]-j)
                 # print("["+str(i)+", "+str(j)+"]="+ str(self.state[i][j])+" @goal =" + str(goal_pos)+"  h:" + str(h))
         return h
 
@@ -86,6 +92,7 @@ class TreeNode:
         self.f_value = self.level + self.puzzle.h_value
         self.n_children = len(puzzle.moves)
         self.children = None
+        self.time_invoked = time.time()
 
     def get_children(self):
         self.children = []
@@ -108,27 +115,40 @@ class TreeNode:
                 self.children.append(self.right_child)
 
     def __lt__(self, other):
-        return self.f_value < other.f_value
+        if self.f_value == other.f_value:
+            return self.time_invoked > other.time_invoked
+        else:
+            return self.f_value < other.f_value
 
     def __repr__(self):
-        return "Node with puzzle: " + str(self.puzzle) + " F value = " + str(self.f_value) + " path =" + self.path
+        return "Node with puzzle: " + str(self.puzzle)  + " path =" + self.path
+
+    def __contains__(self):
+        return self.puzzle.state
 
 
 def a_star_solver(initial_puzzle, the_goal):
+    explored = []
     start_time = time.time()
-    visited = 1
+    visited = 0
     if initial_puzzle == the_goal:
         print("Success")
     else:
         goal_found = False
         root = TreeNode(initial_puzzle)
+        explored.append(root.puzzle.state)
         the_heap = []
         root.get_children()
         for c in range(root.n_children):
-            heappush(the_heap, root.children[c])
+            if root.children[c].puzzle.state not in explored:
+                heappush(the_heap, root.children[c])
         while not goal_found:
             current_node = heappop(the_heap)
+            explored.append(current_node.puzzle.state)
             visited = visited + 1
+            print("")
+            print(current_node)
+            heaper_printer(the_heap)
             if current_node.puzzle.state == the_goal:
                 goal_found = True
                 print("Path to goal:  " + str(list(current_node.path)))
@@ -136,9 +156,9 @@ def a_star_solver(initial_puzzle, the_goal):
                 print("Visited Nodes: " + str(visited))
             else:
                 current_node.get_children()
-                print(current_node)
                 for c in range(current_node.n_children):
-                    heappush(the_heap, current_node.children[c])
+                    if current_node.children[c].puzzle.state not in explored:
+                        heappush(the_heap, current_node.children[c])
 
     print("Elapsed time : " + str(time.time()-start_time))
     print("Used memory : " + str(visited * 72) +" bytes")
