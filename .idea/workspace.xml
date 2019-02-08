@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175bbb85-78e1-4ce7-9e47-7bb87f25b0ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SW_projects/SW_unitTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW_projects/SW_unitTests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +15,10 @@
     <session id="-937375609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,46 +37,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4973" />
+          <entry key="py" value="4977" />
           <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="143" />
-          <entry key="Python" value="4973" />
+          <entry key="Python" value="4977" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
-              <folding>
-                <element signature="e#17#42#0" expanded="true" />
-                <marker date="1549482446875" expanded="true" signature="428:636" ph="..." />
-                <marker date="1549482446875" expanded="true" signature="660:1580" ph="..." />
-                <marker date="1549482446875" expanded="true" signature="4932:5052" ph="..." />
-              </folding>
+            <state relative-caret-position="466">
+              <caret line="135" column="46" selection-start-line="135" selection-start-column="46" selection-end-line="135" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SW_projects/SW_unitTests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1549484040046" expanded="true" signature="84:85" ph="..." />
-                <marker date="1549484040046" expanded="true" signature="295:301" ph="..." />
-                <marker date="1549484040046" expanded="true" signature="295:318" ph="..." />
-                <marker date="1549484040046" expanded="true" signature="344:349" ph="..." />
+                <marker date="1549558211718" expanded="true" signature="84:85" ph="..." />
+                <marker date="1549558211718" expanded="true" signature="295:296" ph="..." />
+                <marker date="1549558211718" expanded="true" signature="295:318" ph="..." />
+                <marker date="1549558211718" expanded="true" signature="344:349" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,16 +132,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1887" />
-    <option name="y" value="-19" />
-    <option name="width" value="1612" />
-    <option name="height" value="865" />
+    <option name="x" value="1835" />
+    <option name="y" value="-21" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in SW_unitTests.py">
+  <component name="RunManager" selected="Python.SI_8puzzle-Astar">
     <configuration name="SI_8puzzle-Astar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MCC-PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,8 +218,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in SW_unitTests.py" />
         <item itemvalue="Python.SI_8puzzle-Astar" />
+        <item itemvalue="Python tests.Unittests in SW_unitTests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -285,20 +282,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34668073" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16069546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4097035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.71800435" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39804772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18221258" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -340,26 +336,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.0 version  - missing Heaps printing functionality -" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="138" column="35" lean-forward="true" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-            <marker date="1549482446875" expanded="true" signature="428:636" ph="..." />
-            <marker date="1549482446875" expanded="true" signature="660:1580" ph="..." />
-            <marker date="1549482446875" expanded="true" signature="4932:5052" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SW_projects/file1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -374,17 +350,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SW_projects/SW_unitTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1549484040046" expanded="true" signature="84:85" ph="..." />
-            <marker date="1549484040046" expanded="true" signature="295:301" ph="..." />
-            <marker date="1549484040046" expanded="true" signature="295:318" ph="..." />
-            <marker date="1549484040046" expanded="true" signature="344:349" ph="..." />
+            <marker date="1549558211718" expanded="true" signature="84:85" ph="..." />
+            <marker date="1549558211718" expanded="true" signature="295:296" ph="..." />
+            <marker date="1549558211718" expanded="true" signature="295:318" ph="..." />
+            <marker date="1549558211718" expanded="true" signature="344:349" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="135" column="46" selection-start-line="135" selection-start-column="46" selection-end-line="135" selection-end-column="46" />
         </state>
       </provider>
     </entry>
