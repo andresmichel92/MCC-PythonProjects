@@ -9,12 +9,10 @@ class Test_fcm_method(unittest.TestCase):
 
     # Test if two different files are equal
     def test_one(self):
-        x = os.path.dirname(r'')
         self.assertFalse(filecmp.cmp("file1.txt", "file2.txt"))
 
     # Test if two different files are equal
     def test_two(self):
-        x = os.path.dirname(r'')
         self.assertFalse(filecmp.cmp("file1.txt", "file3.txt"))
 
 
