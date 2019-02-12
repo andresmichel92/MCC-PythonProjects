@@ -59,7 +59,12 @@ def ask_number():
     return n
 
 
-print("Roman numerals generator\n")
-print(generate_romans(ask_number()))
+def main():
+    print("Roman numerals generator\n")
+    print(generate_romans(ask_number()))
+
+
+if __name__ == "__main__":
+    main()
 
 # the rule is that we can concatenate units, tents, and centimals up to three times. Then we substract one, and concatenate 3 afterwards
