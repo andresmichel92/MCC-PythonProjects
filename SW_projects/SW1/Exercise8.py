@@ -19,7 +19,7 @@ def median(lista):
         h1 = h2 - 1
         median = (lista[h1] + lista[h2])/2
     else:
-        median = lista[len(lista)/2]
+        median = lista[int((len(lista)-1)/2)]
     return median
 
 
