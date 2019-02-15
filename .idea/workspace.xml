@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175bbb85-78e1-4ce7-9e47-7bb87f25b0ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SW_projects/SW1/Exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW_projects/SW1/Exercise8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1384" />
+          <entry key="py" value="1388" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1384" />
+          <entry key="Python" value="1388" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise9.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="22" />
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -101,16 +100,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="339">
               <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -151,16 +150,15 @@
         <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise9-UniTest.py" />
         <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise9.py" />
         <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise9-UnitTest.py" />
-        <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise8.py" />
         <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py" />
+        <option value="$PROJECT_DIR$/SW_projects/SW1/Exercise8.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="777" />
-    <option name="y" value="127" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -377,8 +375,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.11446741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -391,7 +388,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.71800435" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.455516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.46209386" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49947312" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50105375" side_tool="true" weight="0.4088937" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -490,18 +487,14 @@
     <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise9.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="22" />
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py">
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <marker date="1550206612660" expanded="true" signature="163:168" ph="..." />
-            <marker date="1550206612660" expanded="true" signature="758:881" ph="..." />
-          </folding>
+        <state relative-caret-position="339">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -515,10 +508,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8.py">
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW1/Exercise8-UnitTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <marker date="1550206612660" expanded="true" signature="163:168" ph="..." />
+            <marker date="1550206612660" expanded="true" signature="758:881" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,3 +30,5 @@ class TestExercise8(unittest.TestCase):
         assert type(Exercise8.dataset2) == type([1, 2, 3])
 
 
+if __name__ == '__main__':
+    unittest.main()
