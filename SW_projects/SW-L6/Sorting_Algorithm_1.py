@@ -16,12 +16,24 @@ def set_input_data(file_path_name):
             f_list = [float(i) for i in csv_list[0]]
         except ValueError:
             print("One or more non-numeric values have been found in your data set, please try again")
-
     return f_list
 
 
+def set_output_data(file_path_name, sorted_list):
+
+    # sorted_list = map(str, sorted_list)
+    with open(file_path_name, 'w') as my_file:
+        wr = csv.writer(my_file, delimiter=',', quoting=csv.QUOTE_ALL)
+        wr.writerow(sorted_list)
+
+
 def main():
-    print(set_input_data("test1.csv"))
+
+    aList = set_input_data("test1.csv")
+    print(aList)
+    set_output_date('test2.csv', aList)
+
+
 
 
 if __name__ == '__main__':
