@@ -66,7 +66,7 @@ def main():
 
     aList = set_input_data("test1.csv")
     print(aList)
-   # set_output_data('test2.csv', aList)
+    set_output_data('test2.csv', aList)
     print(execute_merge_sort(aList))
 
 
