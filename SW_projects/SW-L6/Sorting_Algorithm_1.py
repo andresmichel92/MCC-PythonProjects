@@ -1,6 +1,7 @@
 from pathlib import Path
 import csv
 import time
+from copy import deepcopy
 
 p = Path('.')
 data = []
@@ -81,24 +82,97 @@ def execute_merge_sort(unsorted_list):
     return unsorted_list
 
 
-def execute_heap_sort(unsorted_list):
-
-    return unsorted_list
-
-
 def execute_quick_sort(unsorted_list):
+    lista = deepcopy(unsorted_list)
+    splitter(lista, 0, len(lista)-1)
+    return lista
 
-    return unsorted_list
+def splitter(lista, first, last):
+
+    if first < last:
+        splitpoint = partition(lista, first, last)
+        splitter(lista, first, splitpoint-1)
+        splitter(lista, splitpoint+1, last)
+
+
+def partition(lista, first, last):
+    pivotvalue = lista[first]
+
+    leftmark = first+1
+    rightmark = last
+
+    done = False
+    while not done:
+
+        while leftmark <= rightmark and lista[leftmark] <= pivotvalue:
+            leftmark = leftmark + 1
+
+        while lista[rightmark] >= pivotvalue and rightmark >= leftmark:
+            rightmark = rightmark - 1
+
+        if rightmark < leftmark:
+            done = True
+        else:
+            temp = lista[leftmark]
+            lista[leftmark] = lista[rightmark]
+            lista[rightmark] = temp
+
+        temp = lista[first]
+        lista[first] = lista[rightmark]
+        lista[rightmark] = temp
+
+    return rightmark
+
+
+def execute_heap_sort(unsorted_list):
+    aList=deepcopy(unsorted_list)
+    # convert aList to heap
+    length = len(aList) - 1
+    leastParent = length / 2
+    for i in range(int(leastParent), -1, -1):
+        moveDown(aList, i, length)
+
+    # flatten heap into sorted array
+    for i in range(length, 0, -1):
+        if aList[0] > aList[i]:
+            swap(aList, 0, i)
+            moveDown(aList, 0, i - 1)
+    return aList
+
+
+def moveDown(aList, first, last):
+    largest = 2 * first + 1
+    while largest <= last:
+        # right child exists and is larger than left child
+        if (largest < last) and (aList[largest] < aList[largest + 1]):
+            largest += 1
+
+        # right child is larger than parent
+        if aList[largest] > aList[first]:
+            swap(aList, largest, first)
+            # move down to largest child
+            first = largest
+            largest = 2 * first + 1
+        else:
+            return  # force exit
+
+
+def swap(A, x, y):
+    tmp = A[x]
+    A[x] = A[y]
+    A[y] = tmp
 
 
 def main():
 
-    aList = set_input_data("test1.csv")
+    unaList = set_input_data("test1.csv")
     #print(aList)
-    #set_output_data('test2.csv', aList)
-    print(execute_merge_sort(aList))
-    generate_end_data(data[3])
-    print(data)
+    #set_output_data('test2.csv', unaList)
+    #print(execute_merge_sort(unaList))
+    #generate_end_data(data[3])
+    #print(data)
+    print(execute_heap_sort(unaList))
+
 
 if __name__ == '__main__':
     main()
