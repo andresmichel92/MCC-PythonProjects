@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175bbb85-78e1-4ce7-9e47-7bb87f25b0ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SW_projects/SW-L6/Sorting_Algorithm_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW_projects/SW-L6/Sorting_Algorithm_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW_projects/SW-L6/test1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SW_projects/SW-L6/test1.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,57 +59,65 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2008" />
+          <entry key="csv" value="2" />
+          <entry key="py" value="3020" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2008" />
+          <entry key="CSV" value="2" />
+          <entry key="Python" value="3020" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="6" />
-          <entry key="py" value="1" />
+          <entry key="csv" value="12" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="5" />
+          <entry key="CSV" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/Sorting_Algorithm_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="267">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1551416112784" expanded="true" signature="759:761" ph="..." />
-                <marker date="1551416112784" expanded="true" signature="799:993" ph="..." />
+                <marker date="1552009048856" expanded="true" signature="412:544" ph="..." />
+                <marker date="1552009048856" expanded="true" signature="1160:1162" ph="..." />
+                <marker date="1552009048856" expanded="true" signature="1224:2238" ph="..." />
+                <marker date="1552009048856" expanded="true" signature="2235:2238" ph="..." />
+                <marker date="1552009048856" expanded="true" signature="2249:2255" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test1.txt">
-          <provider selected="true" editor-type-id="text-editor">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test_data.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
             <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+              <caret column="194757" selection-start-column="194757" selection-end-column="194757" />
             </state>
           </provider>
         </entry>
@@ -117,12 +127,7 @@
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-text-editor" />
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -158,20 +163,21 @@
         <option value="$PROJECT_DIR$/SW_projects/SW-L6/test1.txt" />
         <option value="$PROJECT_DIR$/SW_projects/SW-L6/test1.csv" />
         <option value="$PROJECT_DIR$/SW_projects/SW-L6/Sorting_Algorithm_1.py" />
+        <option value="$PROJECT_DIR$/SW_projects/SW-L6/test_data.csv" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="651" />
+    <option name="y" value="-21" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,11 +318,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Sorting_Algorithm_1" />
       <item itemvalue="Python.SI_8puzzle-Astar" />
       <item itemvalue="Python.Exercise9-UnitTest" />
       <item itemvalue="Python tests.Unittests in Exercise8-UnitTest.py" />
       <item itemvalue="Python.Exercise8" />
-      <item itemvalue="Python.Sorting_Algorithm_1" />
     </list>
     <recent_temporary>
       <list>
@@ -387,22 +394,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23376623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11446741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32851985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49675325" weight="0.48576513" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3991323" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49675325" visible="true" weight="0.48576513" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3985765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.71800435" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.46570396" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49947312" weight="0.32851985" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.45907474" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49947312" weight="0.32740214" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032467" side_tool="true" weight="0.48736462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,14 +449,18 @@
     <MESSAGE value="1.0 version  - missing Heaps printing functionality -" />
     <option name="LAST_COMMIT_MESSAGE" value="1.0 version  - missing Heaps printing functionality -" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SW_projects/SW_unitTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -502,13 +513,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/prueba.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test1.txt">
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/prueba.csv" />
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test2.csv" />
+    <entry file="file://$PROJECT_DIR$/SI_8puzzle-Astar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="-1428">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#13#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -516,28 +530,35 @@
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test2.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/Sorting_Algorithm_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="267">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1551416112784" expanded="true" signature="759:761" ph="..." />
-            <marker date="1551416112784" expanded="true" signature="799:993" ph="..." />
+            <marker date="1552009048856" expanded="true" signature="412:544" ph="..." />
+            <marker date="1552009048856" expanded="true" signature="1160:1162" ph="..." />
+            <marker date="1552009048856" expanded="true" signature="1224:2238" ph="..." />
+            <marker date="1552009048856" expanded="true" signature="2235:2238" ph="..." />
+            <marker date="1552009048856" expanded="true" signature="2249:2255" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SW_projects/SW-L6/test_data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="194757" selection-start-column="194757" selection-end-column="194757" />
         </state>
       </provider>
     </entry>

@@ -1,10 +1,29 @@
 from pathlib import Path
 import csv
-p = Path('.')
+import time
 
+p = Path('.')
+data = []
 # ===========================
 # EX 25 set_input_data method
 # ---------------------------
+
+
+def generate_data(list_to_sort, start_time):
+    data.clear()
+    data.append("Size: ")
+    data.append(len(list_to_sort))
+    data.append("Start time: ")
+    data.append(start_time)
+    data.append("End_time: ")
+
+
+def generate_end_data(starting):
+    end = time.time()
+    data.append(end)
+    duration = end - starting
+    data.append("Duration: ")
+    data.append(duration)
 
 
 def set_input_data(file_path_name):
@@ -28,7 +47,8 @@ def set_output_data(file_path_name, sorted_list):
 
 
 def execute_merge_sort(unsorted_list):
-
+    start = time.time()
+    generate_data(unsorted_list, start)
     if len(unsorted_list) > 1:
         mid = int(len(unsorted_list)/2)
         right_half = unsorted_list[:mid]
@@ -58,6 +78,15 @@ def execute_merge_sort(unsorted_list):
             unsorted_list[k] = right_half[j]
             j = j + 1
             k = k + 1
+    return unsorted_list
+
+
+def execute_heap_sort(unsorted_list):
+
+    return unsorted_list
+
+
+def execute_quick_sort(unsorted_list):
 
     return unsorted_list
 
@@ -65,10 +94,11 @@ def execute_merge_sort(unsorted_list):
 def main():
 
     aList = set_input_data("test1.csv")
-    print(aList)
-    set_output_data('test2.csv', aList)
+    #print(aList)
+    #set_output_data('test2.csv', aList)
     print(execute_merge_sort(aList))
-
+    generate_end_data(data[3])
+    print(data)
 
 if __name__ == '__main__':
     main()
