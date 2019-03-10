@@ -3,7 +3,6 @@ import csv
 import time
 from copy import deepcopy
 
-p = Path('.')
 data = []
 # ===========================
 # EX 25 set_input_data method
@@ -168,10 +167,11 @@ def main():
     unaList = set_input_data("test1.csv")
     #print(aList)
     #set_output_data('test2.csv', unaList)
-    #print(execute_merge_sort(unaList))
-    #generate_end_data(data[3])
-    #print(data)
-    print(execute_heap_sort(unaList))
+    print(execute_merge_sort(unaList))
+    generate_end_data(data[3])
+    print(data)
+    print(len(data))
+    #print(execute_heap_sort(unaList))
 
 
 if __name__ == '__main__':
