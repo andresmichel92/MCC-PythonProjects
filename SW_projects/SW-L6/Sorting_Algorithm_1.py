@@ -86,6 +86,7 @@ def execute_quick_sort(unsorted_list):
     splitter(lista, 0, len(lista)-1)
     return lista
 
+
 def splitter(lista, first, last):
 
     if first < last:
