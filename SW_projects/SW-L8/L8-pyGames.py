@@ -1,14 +1,12 @@
+import L8_UI as UI
 import os
+import tkinter as tk
+
+
 
 class Player:
     def __init__(self, symbol):
         self.symbol=symbol
-
-    def play(self):
-        #method to get player input
-        ask_input()
-        return input
-
 
 class Game:
     def __init__(self, board, player1, player2):
@@ -23,17 +21,31 @@ class Game:
         else:
             self.player_turn= self.player1
 
+    def play_game(self):
+        #method to get player input
+        UI.show_game(self.board)
+        return input
 
 class Board:
-    def __init__(self, tiles):
+    def __init__(self, tiles, name):
         self.tiles = tiles
-        self.board_scheme = "tiles by tiles matrix"
-
-    def create_board(self):
-        board = [" "] * self.tiles
+        self.name = name
+        self.board = [" "] * self.tiles
 
 class TTTBoard(Board):
 
     def show_board(self):
-        #nice method to show board
+        self.board()
+
+def main():
+    ttt_board = Board(3, "Tic Tac Toe")
+    play_game = Player
+    player1 = Player("X")
+    player2 = Player("O")
+    TTT_game = Game(ttt_board, player1, player2)
+    TTT_game.play_game()
+
+
+if __name__ == '__main__':
+    main()
 
