@@ -26,10 +26,10 @@ class Board:
 
     def on_click(self, i, j):
         global turn
-        if turn%2==0:
-            self.board[i][j]= "X"
-        elif turn>0:
-            self.board[i][j]="O"
+        if turn>0 and turn%2==0:
+            self.board[i][j]= "O"
+        elif turn-1%2==0:
+            self.board[i][j]="X"
         turn = turn + 1
 
 # View
