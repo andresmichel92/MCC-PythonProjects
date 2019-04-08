@@ -1,5 +1,13 @@
+import L8-BoardGame as L8
 from tkinter import *
 from tkinter import messagebox
+
+class TTTGame(L8.Game):
+
+
+class TTTboard(L8.Board):
+    def __init__(self):
+
 
 def show_game(a_board):
 
