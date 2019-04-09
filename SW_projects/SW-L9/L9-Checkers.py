@@ -48,8 +48,10 @@ class CheckersPlayer(L9.Player):
 
     def get_player_input(self):
         print("Your tokens:")
-
-
+        # print list of tokens
+        # ask user to select a move
+        # validate in game class
+        # ask for input, again, if needed
 
 
 def main():
