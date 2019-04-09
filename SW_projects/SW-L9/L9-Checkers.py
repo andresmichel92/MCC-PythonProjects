@@ -29,8 +29,14 @@ class Token:
 
 class CheckersBoard(L9.Board):
     def __init__(self):
+        super(CheckersBoard, self).__init__()
         self.board = [[" "]*8]*8
         self.state = "play"
+
+    def print_board(self):
+        super(CheckersBoard, self).print_board()
+        print("    || A   B   C   D   E   F   G   E ||")
+        print("    ===================================")
 
 
 class CheckersPlayer(L9.Player):
@@ -58,6 +64,8 @@ def main():
 
     checkers_board = CheckersBoard()
     checkers_board.print_board()
+    the_board = L9.Board()
+    the_board.print_board()
 
 
 if __name__ == '__main__':
