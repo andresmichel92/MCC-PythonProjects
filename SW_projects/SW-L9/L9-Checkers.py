@@ -2,7 +2,7 @@ import L9_BoardGame as L9
 
 
 class Token:
-    def __init__(self, color, pos_x, pos_y):
+    def __init__(self, color, pos_x =0, pos_y=0):
         self.color = color  # array [peasant symbol, King symbol ] or [O, Ô]
         self.status = "peasant"  # array [ alive / dead, king / peasant]
         self.pos_x = pos_x
@@ -33,11 +33,23 @@ class CheckersBoard(L9.Board):
         self.state = "play"
 
 
-class CheckersPlayer(L9.Board):
-
+class CheckersPlayer(L9.Player):
     def __init__(self, name, domain):
         super(CheckersPlayer, self).__init__(name, domain)
-        # Create tokens
+        self.tokens = None
+
+    def create_tokens(self):
+        i = 0
+        self.tokens = []
+        while i < 12:
+            newToken = Token(self.domain)
+            self.tokens.append(newToken)
+
+
+    def get_player_input(self):
+        print("Your tokens:")
+
+
 
 
 def main():
