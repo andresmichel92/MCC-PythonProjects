@@ -33,7 +33,8 @@ class Game:
 
 class Board:
     def __init__(self, domain =None, root=None):
-        self.board = [" "]  # list of buttons
+       # self.board = None  # list of buttons
+        self.board = [[" "]*3]*3
         self.state = ""
         self.domain = domain
         self.root = root #used for UI
@@ -48,17 +49,16 @@ class Board:
         player.get_player_input()
 
     def print_board(self):
-        print("    ===================================")
-        print("    || A   B   C   D   E   F   G   E ||")
+        print("    ==" + "===" * len(self.board[0]) + "="* int(len(self.board[0])-1) + "==")
+        x = "    ||" + "---" * len(self.board[0]) + "-"* int(len(self.board[0])-1) + "||"
         for i in range(len(self.board)):
-         #   print("    ||-------------------------------||")
-            print(" {}  ||".format(i+1), end='')
+            print(x)
+            print(" {}  ||".format(i+1), end = '')
             for j in range(len(self.board[i])):
-                print(" " + self.board[i][j] + " |", end='')
+                print(" " + self.board[i][j] + " |", end = '')
                 if j+1 == len(self.board[i]):
                     print("|")
-        print("    ||-------------------------------||")
-        print("    ===================================")
+        print("    ==" + "===" * len(self.board[0]) + "=" * int(len(self.board[0]) - 1) + "==")
 
 
 class Player:
