@@ -55,7 +55,7 @@ class Board:
             print(x)
             print(" {}  ||".format(i+1), end = '')
             for j in range(len(self.board[i])):
-                print(" " + self.board[i][j] + " |", end = '')
+                print(" " + str(self.board[i][j]) + " |", end = '')
                 if j+1 == len(self.board[i]):
                     print("|")
         print("    ==" + "===" * len(self.board[0]) + "=" * int(len(self.board[0]) - 1) + "==")

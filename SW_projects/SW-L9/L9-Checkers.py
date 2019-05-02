@@ -26,11 +26,14 @@ class Token:
         self.pos_x = new_x
         self.pos_y = new_y
 
+    def __str__(self):
+        return self.color
 
 class CheckersBoard(L9.Board):
     def __init__(self):
         super(CheckersBoard, self).__init__()
-        self.board = [[" "]*8]*8
+        # self.board = [[" "]*8]*8
+        self.board = [[" "]*8 for _ in range(8)]
         self.state = "play"
 
     def print_board(self):
@@ -44,19 +47,30 @@ class CheckersBoard(L9.Board):
 
         j = 0
         i = 0
-        print(Black_init_pos[0][0][1])
-        for token in player1.tokens:
 
+        for token in player1.tokens:
             token.pos_x = Black_init_pos[j][i][1]
+            # print(str(i)+'-'+str(j))
             token.pos_y = Black_init_pos[j][i][0]
             self.board[token.pos_y][token.pos_x] = token
-
-            if i >= 3:
+            i = i + 1
+            if i > 3:
                 i = 0
                 j = j +1
-            i = i + 1
 
-        print(player1.tokens)
+        j = 0
+        i = 0
+
+        for token in player2.tokens:
+            token.pos_x = Red_init_pos[j][i][1]
+            # print(str(i)+'-'+str(j))
+            token.pos_y = Red_init_pos[j][i][0]
+            self.board[token.pos_y][token.pos_x] = token
+            i = i + 1
+            if i > 3:
+                i = 0
+                j = j +1
+
 
 class CheckersPlayer(L9.Player):
     def __init__(self, name, domain):
@@ -91,6 +105,7 @@ def main():
     player2.create_tokens()
     checkers_board.config_init_state(player1, player2)
     checkers_board.print_board()
+
 
 if __name__ == '__main__':
     main()
